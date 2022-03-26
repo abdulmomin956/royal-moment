@@ -2,7 +2,17 @@
     background-color: white;
     padding: 10px;
 }
+.product button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .img-part{
     display: flex;
     justify-content: center;
+}
+.btn-text{
+    margin-right: 10px;
 }
