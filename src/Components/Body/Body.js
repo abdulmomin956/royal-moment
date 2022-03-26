@@ -39,6 +39,9 @@ const Body = () => {
         }
         // console.log(rndNum)
     }
+    const resetBtn = () => {
+        setCart([]);
+    }
     return (
         <section>
             <div className='products'>
@@ -60,7 +63,7 @@ const Body = () => {
                     </Cart>)
                 }
                 <button onClick={chooseOne}>CHOOSE 1 FOR ME</button>
-                <button>RESET CART</button>
+                <button onClick={resetBtn}>RESET CART</button>
 
 
                 <Best best={best}></Best>
