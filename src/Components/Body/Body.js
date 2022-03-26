@@ -20,6 +20,21 @@ const Body = () => {
 
     }
     // console.log(cart);
+    const chooseOne = () => {
+        if (cart.length === 0) {
+            return;
+        }
+        let rndNum = Math.round(Math.random() * 10);
+        if (rndNum < cart.length) {
+            console.log(cart[rndNum])
+
+
+        }
+        else {
+            return chooseOne();
+        }
+        // console.log(rndNum)
+    }
     return (
         <section>
             <div className='products'>
@@ -40,7 +55,7 @@ const Body = () => {
                     >
                     </Cart>)
                 }
-                <button>CHOOSE 1 FOR ME</button>
+                <button onClick={chooseOne}>CHOOSE 1 FOR ME</button>
                 <button>RESET CART</button>
             </div>
 
