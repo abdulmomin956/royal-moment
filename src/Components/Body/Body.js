@@ -41,6 +41,7 @@ const Body = () => {
     }
     const resetBtn = () => {
         setCart([]);
+        setBest([]);
     }
     return (
         <section>

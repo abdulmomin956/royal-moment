@@ -1,3 +1,6 @@
 .best h4{
     color: red;
 }
+.best h4::before{
+    content: 'Best: ';
+}
