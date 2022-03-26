@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic1.webp"
+    },
+    {
+        "id": 2,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic2.webp"
+    },
+    {
+        "id": 3,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic3.webp"
+    },
+    {
+        "id": 4,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic4.webp"
+    },
+    {
+        "id": 5,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic5.webp"
+    },
+    {
+        "id": 6,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic6.webp"
+    },
+    {
+        "id": 7,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic7.webp"
+    },
+    {
+        "id": 8,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic8.webp"
+    },
+    {
+        "id": 9,
+        "name": "iphone5",
+        "price": 1200,
+        "image": "../../images/pic9.webp"
+    }
+]
