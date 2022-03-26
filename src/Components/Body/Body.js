@@ -61,9 +61,11 @@ const Body = () => {
                 }
                 <button onClick={chooseOne}>CHOOSE 1 FOR ME</button>
                 <button>RESET CART</button>
-                {
-                    <Best best={best}></Best>
-                }
+
+
+                <Best best={best}></Best>
+
+
             </div>
 
         </section>

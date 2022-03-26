@@ -1,12 +1,15 @@
 import React from 'react';
+import './Best.css'
 
 const Best = (props) => {
+
     return (
-        <div>
-            <h3>Best for you!!</h3>
-            <p>{props.best.name}</p>
+        <div className='best'>
+            <h4>{props.best.name}</h4>
         </div>
     );
+
+
 };
 
 export default Best;
