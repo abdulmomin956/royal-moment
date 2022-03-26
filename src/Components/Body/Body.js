@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import MyDataArray from '../../myData';
+import Best from '../Best/Best';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Body.css'
 
 const Body = () => {
     const [cart, setCart] = useState([]);
+    const [best, setBest] = useState([]);
     const handleAddToCart = product => {
         const checkPrev = cart.filter(pro => pro.id === product.id);
         // console.log(checkPrev);
@@ -21,12 +23,14 @@ const Body = () => {
     }
     // console.log(cart);
     const chooseOne = () => {
+
         if (cart.length === 0) {
             return;
         }
         let rndNum = Math.round(Math.random() * 10);
         if (rndNum < cart.length) {
-            console.log(cart[rndNum])
+            // console.log(cart[rndNum])
+            setBest(cart[rndNum])
 
 
         }
@@ -57,6 +61,9 @@ const Body = () => {
                 }
                 <button onClick={chooseOne}>CHOOSE 1 FOR ME</button>
                 <button>RESET CART</button>
+                {
+                    <Best best={best}></Best>
+                }
             </div>
 
         </section>
