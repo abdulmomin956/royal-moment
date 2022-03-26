@@ -1,0 +1,8 @@
+.product{
+    background-color: white;
+    padding: 10px;
+}
+.img-part{
+    display: flex;
+    justify-content: center;
+}
